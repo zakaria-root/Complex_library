@@ -147,7 +147,7 @@ ostream &operator<<(ostream &os, complex cm)
   }
   else
   {
-    os << cm.real(cm) << std::endl;
+    os << cm.real(cm) ;
   }
   return os;
 }
